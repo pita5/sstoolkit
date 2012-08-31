@@ -7,35 +7,35 @@
 //
 
 // Views
-#import <SSToolkit/SSAnimatedImageView.h>
-#import <SSToolkit/SSBadgeView.h>
-#import <SSToolkit/SSBorderedView.h>
-#import <SSToolkit/SSCollectionView.h>
-#import <SSToolkit/SSCollectionViewItem.h>
-#import <SSToolkit/SSGradientView.h>
-#import <SSToolkit/SSHUDView.h>
-#import <SSToolkit/SSLabel.h>
-#import <SSToolkit/SSLineView.h>
-#import <SSToolkit/SSLoadingView.h>
-#import <SSToolkit/SSPieProgressView.h>
-#import <SSToolkit/SSWebView.h>
+#import "SSAnimatedImageView.h"
+#import "SSBadgeView.h"
+#import "SSBorderedView.h"
+#import "SSCollectionView.h"
+#import "SSCollectionViewItem.h"
+#import "SSGradientView.h"
+#import "SSHUDView.h"
+#import "SSLabel.h"
+#import "SSLineView.h"
+#import "SSLoadingView.h"
+#import "SSPieProgressView.h"
+#import "SSWebView.h"
 
 // Cells
-#import <SSToolkit/SSBadgeTableViewCell.h>
+#import "SSBadgeTableViewCell.h"
 
 // Controls
-#import <SSToolkit/SSAddressBarTextField.h>
-#import <SSToolkit/SSButton.h>
-#import <SSToolkit/SSTextField.h>
-#import <SSToolkit/SSTextView.h>
-#import <SSToolkit/SSRatingPicker.h>
+#import "SSAddressBarTextField.h"
+#import "SSButton.h"
+#import "SSTextField.h"
+#import "SSTextView.h"
+#import "SSRatingPicker.h"
 
 // View Controllers
-#import <SSToolkit/SSCollectionViewController.h>
-#import <SSToolkit/SSPickerViewController.h>
-#import <SSToolkit/SSRatingPickerViewController.h>
+#import "SSCollectionViewController.h"
+#import "SSPickerViewController.h"
+#import "SSRatingPickerViewController.h"
 
 // Misc
-#import <SSToolkit/SSConcurrentOperation.h>
-#import <SSToolkit/SSDrawingUtilities.h>
-#import <SSToolkit/SSRateLimit.h>
+#import "SSConcurrentOperation.h"
+#import "SSDrawingUtilities.h"
+#import "SSRateLimit.h"
