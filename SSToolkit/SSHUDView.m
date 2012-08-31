@@ -315,7 +315,7 @@ static CGFloat kIndicatorSize = 40.0;
 		degrees = 180;
 	}
     
-    CGAffineTransform rotationTransform = CGAffineTransformMakeRotation(DEGREES_TO_RADIANS(degrees));
+    CGAffineTransform rotationTransform = CGAffineTransformMakeRotation(SS_DEGREES_TO_RADIANS(degrees));
     
 	if (animated) {
 		[UIView beginAnimations:@"SSHUDViewRotationTransform" context:nil];

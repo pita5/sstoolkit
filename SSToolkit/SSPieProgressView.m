@@ -92,14 +92,14 @@ CGFloat const kAngleOffset = -90.0f;
 	if (_progress > 0.0f) {
 		CGPoint center = CGPointMake(CGRectGetMidX(rect), CGRectGetMidY(rect));
 		CGFloat radius = center.y;
-		CGFloat angle = DEGREES_TO_RADIANS((360.0f * _progress) + kAngleOffset);
+		CGFloat angle = SS_DEGREES_TO_RADIANS((360.0f * _progress) + kAngleOffset);
 		CGPoint points[3] = {
 			CGPointMake(center.x, 0.0f),
 			center,
 			CGPointMake(center.x + radius * cosf(angle), center.y + radius * sinf(angle))
 		};
 		CGContextAddLines(context, points, sizeof(points) / sizeof(points[0]));
-		CGContextAddArc(context, center.x, center.y, radius, DEGREES_TO_RADIANS(kAngleOffset), angle, false);
+		CGContextAddArc(context, center.x, center.y, radius, SS_DEGREES_TO_RADIANS(kAngleOffset), angle, false);
 		CGContextDrawPath(context, kCGPathEOFill);
 	}
 	

@@ -20,7 +20,7 @@
  
  @return The number converted to radians.
  */
-#define DEGREES_TO_RADIANS(d) ((d) * 0.0174532925199432958f)
+#define SS_DEGREES_TO_RADIANS(d) ((d) * 0.0174532925199432958f)
 
 /**
  A macro that converts a number from radians to degrees.
@@ -29,7 +29,7 @@
  
  @return The number converted to degrees.
  */
-#define RADIANS_TO_DEGREES(r) ((r) * 57.29577951308232f)
+#define SS_RADIANS_TO_DEGREES(r) ((r) * 57.29577951308232f)
 
 #endif
 
